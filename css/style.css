@@ -11,11 +11,17 @@
 
 /* variables */
 :root{
+  --container-color:#1e272e;
+  --second-color: #0fb9b1;
+  --text-color: #172317;
+  --bg-color: #ffffff;
+}
+/* :root{
   --container-color: #040615;
   --second-color: #1b65a7;
   --text-color: #172317;
   --bg-color: #F2F4F5;
-}
+} */
 /* :root{
   --container-color: #333;
   --second-color: #4c76e2;
@@ -80,15 +86,32 @@ header.shadow .logo{
   color: var(--second-color);
 }
 .login{
-  padding: 8px 14px;
+  padding: 8px 20px;
   text-transform: uppercase;
   font-weight: 500;
-  border-radius: 4px;
+  border-radius: 22px;
   background: var(--second-color);
   color: var(--bg-color);
 }
 .login:hover{
-  background: hsl(24, 98%, 58%);
+  background: var(--bg-color);
+  color: var(--second-color);
+  transition: 0.3s;
+}
+.knowme-container{
+  margin-top: 2rem;
+}
+.knowme{
+  padding: 11px 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 22px;
+  background: var(--second-color);
+  color: var(--bg-color);
+}
+.knowme:hover{
+  background: var(--bg-color);
+  color: var(--second-color);
   transition: 0.3s;
 }
 /* home */
@@ -159,7 +182,7 @@ header.shadow .logo{
   padding-bottom: 0.5rem;
 
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: var(--second-color);
  }
@@ -178,7 +201,7 @@ header.shadow .logo{
   font-size: 0.875rem;
   text-transform:uppercase ;
   font-weight: 430;
-  margin-top: 4.2px;
+  margin-top: 6px;
  }
  .post-description{
   font-size: 0.9rem;
