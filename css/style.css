@@ -121,7 +121,7 @@ header.shadow .logo{
   align-items: center;
   column-gap: 1.5rem;
   margin-top: 2rem !important;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .filter-item{
   font-size: 0.9rem;
@@ -155,13 +155,16 @@ header.shadow .logo{
   border-radius: 0.5rem;
  }
  .category{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
   font-size: 0.9rem;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--second-color);
  }
  .post-title{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600  ;
   color: var(--text-color);
   /* to remain title in 2 lines */
@@ -174,8 +177,8 @@ header.shadow .logo{
   display: flex;
   font-size: 0.875rem;
   text-transform:uppercase ;
-  font-weight: 400;
-  margin-top: 4px;
+  font-weight: 430;
+  margin-top: 4.2px;
  }
  .post-description{
   font-size: 0.9rem;
@@ -191,6 +194,7 @@ header.shadow .logo{
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 1rem;
 }
 .profile-img{
   width: 35px;
