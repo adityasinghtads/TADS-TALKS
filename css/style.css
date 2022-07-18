@@ -97,6 +97,10 @@ header.shadow .logo{
   background: var(--bg-color);
   color: var(--second-color);
   transition: 0.3s;
+  /* border-radius: 4px; */
+  border: 4px;
+  border: var(--text-color);
+
 }
 .knowme-container{
   margin-top: 2rem;
@@ -260,7 +264,8 @@ header.shadow .logo{
 /* Post content  */
 .post-header{
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
+  height: 288px;
   background: var(--container-color);
 }
 .post-container{
@@ -290,11 +295,12 @@ header.shadow .logo{
   height: 420px;
   object-fit: cover;  
   object-position: center;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
+  padding-top: 6.5rem;
   /* border-radius: ; */
 }
 .post-content{
-  margin-top: 10rem !important;
+  margin-top: 22rem !important;
 }
 .sub-heading{
   font-size: 1.2rem;
@@ -304,6 +310,32 @@ header.shadow .logo{
   line-height: 1.7rem;
   margin: 1rem 0;
   text-align: justify;
+}
+.back-home-container{
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 0.2rem;
+  /* margin-top: 4rem !important; */
+}
+.back-home-bottom{
+  font-size: 1rem;
+  /* font-weight: 500; */
+  /* color: var(--second-color); */
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 22px;
+  background: var(--second-color);
+  color: var(--bg-color);
+}
+
+.back-home-bottom:hover{
+  background: var(--text-color);
+  color: var(--second-color);
+  transition: 0.3s;
 }
 
 /* share */
