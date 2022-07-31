@@ -283,7 +283,7 @@ header.shadow .logo{
   color: var(--second-color);
   font-size: 0.9rem;
 }
-.header-title{
+.header-title{  
   width: 90%;
   font-size: 2.3rem;
   color: var(--bg-color);
